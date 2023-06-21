@@ -8,11 +8,11 @@ export default class Magician extends Character {
     
   }
 
-  get () {
+  get attack() {
     return this.attack;
   }
 
-  set  (range) {
+  set attack (range) {
     if (range == 1) {
       this.attack = 10;
     }
@@ -31,10 +31,10 @@ export default class Magician extends Character {
     return this.attack;
   }
 
-  get  () {
+  get stoned () {
     return this.attack
   }
-  set  (range) {
+  set stoned (range) {
     this.attack = this.attack - Math.log(range) * 5
      return this.attack
   }
