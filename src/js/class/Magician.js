@@ -26,7 +26,7 @@ export default class Magician extends Character {
   }
 
 };
-let mage = new Magician("sofia");
-mage.stoned = 2;
-console.log(mage.attack)
+// let mage = new Magician("sofia");
+// mage.stoned = 2;
+// console.log(mage.attack)
 

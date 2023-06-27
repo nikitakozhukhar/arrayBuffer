@@ -4,8 +4,6 @@ import './js/app';
 
 import './js/class/Team'
 
-import './js/class/ErrorRepository'
-
 import './js/class/Character'
 
 import './js/class/Bowman'
