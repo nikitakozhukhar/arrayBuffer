@@ -24,6 +24,5 @@ export default class Magician extends Character {
     this._attack = (this._attack - (this._attack * step)) - (Math.log2(range) * 5);
     return this._attack
   }
-
 };
 

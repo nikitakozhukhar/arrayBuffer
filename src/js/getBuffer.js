@@ -9,5 +9,3 @@ export default function getBuffer() {
 	  return buffer;
 	})(data);
   }
-
-  
